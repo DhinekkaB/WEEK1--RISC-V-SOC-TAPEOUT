@@ -13,9 +13,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/username/RISC-V-SOC-TAPEOUT_VSD?style=social)](https://github.com/username/RISC-V-SOC-TAPEOUT_VSD)
 [![GitHub forks](https://img.shields.io/github/forks/username/RISC-V-SOC-TAPEOUT_VSD?style=social)](https://github.com/username/RISC-V-SOC-TAPEOUT_VSD)
 
-</div>
-
----
 
 ## 🌟 Week 1 Overview
 
