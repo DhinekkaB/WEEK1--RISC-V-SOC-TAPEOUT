@@ -319,7 +319,7 @@ Day1/
 ## 🔗 Quick Navigation
 
 - [⬅️ Back to Week 1 Overview](../README.md)
-- [➡️ Continue to Day 2](../Day2/task.md)
+- [➡️ Continue to Day 2](../Day2/taskM.md)
 
 ---
 
