@@ -174,15 +174,15 @@ Simulator watches for value transitions
 4. **📊 Update**: Outputs are updated based on new input values
 5. **🔄 Iteration**: Process repeats for next input change
 
-<img src="Day1/Images/DESIGN.jpg" alt="Alt Text" width="400" height="250">
+<p align="center">
+  <img src="Images/DESIGN.jpg" alt=DESIGN" width="600" height="350"/>
+</p>
 
 > **Suggested Content**: 
 > - Input change detection mechanism
 > - Event queue management
 > - Output evaluation process
 > - Time advancement logic
-
-![Simulator Flow](./images/simulator_working_flow.png)
 
 ---
 
@@ -238,7 +238,9 @@ Simulator watches for value transitions
 - ✅ **Active Development**: Regular updates and bug fixes
 - ✅ **Educational Friendly**: Perfect for learning digital design
 
-<img src="Day1/Images/DESIGN2.jpg" alt="Alt Text" width="400" height="250">
+<p align="center">
+  <img src="Images/DESIGN2.jpg" alt="DESIGN1" width="600" height="350"/>
+</p>
 
 
 ---
