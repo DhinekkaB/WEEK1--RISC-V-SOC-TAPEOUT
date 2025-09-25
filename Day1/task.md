@@ -74,9 +74,6 @@ The **design** represents the core digital logic implementation:
 - 🏗️ **Abstraction**: RTL (Register Transfer Level) circuit description
 - 🎯 **Goal**: Describes WHAT the circuit should do, not HOW to build it
 
-> 📸 **[SUGGESTION: RTL Design Hierarchy Diagram]**  
-> *Visual showing RTL abstraction levels*
-
 </td>
 </tr>
 </table>
@@ -106,9 +103,6 @@ graph LR
 - 🔬 **Function**: Applies stimulus (test vectors) to Design Under Test (DUT)
 - 📊 **Monitoring**: Captures and analyzes responses for verification
 - 🎪 **Environment**: Creates controlled testing scenarios
-
-> 📸 **[SUGGESTION: Testbench-DUT Interaction Diagram]**  
-> *Visual showing testbench interfacing with DUT*
 
 ---
 
@@ -180,8 +174,8 @@ Simulator watches for value transitions
 4. **📊 Update**: Outputs are updated based on new input values
 5. **🔄 Iteration**: Process repeats for next input change
 
-> 📸 **[IMAGE PLACEHOLDER - Simulator Working Flowchart]**  
-> *Detailed flowchart showing simulator operation cycle*  
+<img src="Day1/Images/DESIGN.jpg" alt="Alt Text" width="400" height="250">
+
 > **Suggested Content**: 
 > - Input change detection mechanism
 > - Event queue management
@@ -192,35 +186,6 @@ Simulator watches for value transitions
 
 ---
 
-#### 🎨 Visual Learning - Simulator Concepts
-
-<div align="center">
-
-**🔄 Simulation Timeline Visualization**
-
-```
-Time:     0ns    5ns    10ns   15ns   20ns
-          │      │      │      │      │
-Input A:  ─────┐      ┌─────────────────
-              │      │
-              └──────┘
-
-Input B:  ──────────┐            ┌─────
-                    │            │
-                    └────────────┘
-
-Output Y: ─────┐    ┌──┐    ┌─────────── 
-              │    │  │    │
-              └────┘  └────┘
-
-Events:   ↑    ↑  ↑   ↑    ↑
-         E1   E2 E3  E4   E5
-```
-
-</div>
-
-> 📸 **[SUGGESTION: Interactive Simulation Waveform]**  
-> *Screenshot showing actual waveforms in simulation*
 
 **🧠 Key Insights:**
 - **Event E1**: Input A changes → Output Y evaluates
@@ -273,8 +238,8 @@ Events:   ↑    ↑  ↑   ↑    ↑
 - ✅ **Active Development**: Regular updates and bug fixes
 - ✅ **Educational Friendly**: Perfect for learning digital design
 
-> 📸 **[SUGGESTION: Iverilog Logo and Feature Comparison]**  
-> *Comparative chart showing Iverilog vs other simulators*
+<img src="Day1/Images/DESIGN2.jpg" alt="Alt Text" width="400" height="250">
+
 
 ---
 
@@ -302,12 +267,6 @@ Events:   ↑    ↑  ↑   ↑    ↑
 Day1/
 ├── README.md                    # This documentation
 ├── images/                      # Screenshots and diagrams
-│   ├── simulator_working_flow.png
-│   ├── rtl_design_hierarchy.png
-│   ├── testbench_dut_interaction.png
-│   ├── simulation_waveform.png
-│   ├── iverilog_comparison.png
-│   └── lab_screenshots/
 ├── verilog_files/              # RTL design files
 ├── testbenches/                # Verification files
 ├── synthesis_results/          # Yosys outputs
