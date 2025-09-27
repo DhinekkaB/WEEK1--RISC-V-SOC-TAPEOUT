@@ -1141,9 +1141,9 @@ write_verilog good_mux_netlist.v
 write_verilog -noattr good_mux_netlist.v
 
 ```
-![YOSYS Flow](./Images/DESIGN5.jpg)
-![YOSYS Flow](./Images/DESIGN6.jpg)
-![YOSYS Flow](./Images/DESIGN7.jpg)
+![YOSYS Flow](./Images/DESIGN5.png)
+![YOSYS Flow](./Images/DESIGN6.png)
+![YOSYS Flow](./Images/DESIGN7.png)
 ---
 
 ## 📁 File Structure
