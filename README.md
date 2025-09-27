@@ -345,55 +345,6 @@ mindmap
 
 ---
 
-## 📁 Complete Repository Structure
-
-```
-Week1/
-├── README.md                           # 📖 This comprehensive guide
-├── Day1/                              # 🎯 RTL & Simulation Fundamentals
-│   ├── README.md                      # Detailed Day 1 documentation
-│   ├── images/                        # Screenshots and diagrams
-│   │   ├── simulator_flow.png
-│   │   ├── iverilog_gtkwave.png
-│   │   └── yosys_synthesis.png
-│   ├── verilog_files/                 # RTL design files
-│   │   ├── basic_gates.v
-│   │   └── mux_examples.v
-│   ├── testbenches/                   # Verification files
-│   └── synthesis_results/             # Yosys outputs
-├── Day2/                              # 📚 Timing & Synthesis Strategies
-│   ├── README.md
-│   ├── images/
-│   │   ├── lib_characterization.png
-│   │   └── hierarchical_vs_flat.png
-│   ├── lib_files/                     # Timing libraries
-│   └── synthesis_scripts/
-├── Day3/                              # 🔄 Logic Optimizations
-│   ├── README.md
-│   ├── images/
-│   │   ├── combinational_opt.png
-│   │   └── sequential_opt.png
-│   └── optimization_examples/
-├── Day4/                              # 🔍 GLS & Synthesis Mismatch
-│   ├── README.md
-│   ├── images/
-│   │   ├── gls_flow.png
-│   │   └── mismatch_examples.png
-│   └── verification_scripts/
-├── Day5/                              # 🚀 Advanced Synthesis
-│   ├── README.md
-│   ├── images/
-│   │   ├── if_case_optimization.png
-│   │   └── loop_synthesis.png
-│   └── advanced_examples/
-└── resources/                         # 📚 Additional Resources
-    ├── references/
-    ├── cheat_sheets/
-    └── troubleshooting_guides/
-```
-
----
-
 ## 🚀 Getting Started - Quick Setup Guide
 
 ### 📋 Prerequisites
@@ -466,37 +417,6 @@ yosys -s synthesis_script.ys
 
 ---
 
-## 🎓 Certification & Next Steps
-
-<div align="center">
-
-### 🏅 **Week 1 Completion Certificate**
-
-```
-🏆 CERTIFICATE OF ACHIEVEMENT 🏆
-
-         RTL Design & Synthesis Mastery
-              ─── Week 1 Complete ───
-
-    ✅ RTL Design Fundamentals
-    ✅ Simulation & Verification  
-    ✅ Logic Synthesis
-    ✅ Timing Analysis Basics
-    ✅ Optimization Techniques
-
-        Ready for Week 2: Floor Planning!
-```
-
-### 🚀 **What's Next?**
-- **Week 2**: Floor Planning and Power Planning
-- **Week 3**: Design and Characterize Library Cell  
-- **Week 4**: Pre-layout Timing Analysis
-- **Week 5**: Final Steps to RTL2GDS using TritonRoute
-
-</div>
-
----
-
 ## 🤝 Contributing & Community
 
 ### 💡 **How to Contribute**
@@ -526,27 +446,6 @@ yosys -s synthesis_script.ys
 | **GTKWave Guide** | [GTKWave Tutorial](http://gtkwave.sourceforge.net/) | Waveform viewer documentation |
 
 </div>
-
----
-
-## 🏁 Week 1 Summary
-
-<div align="center">
-
-**🎊 Congratulations! Week 1 Journey Complete! 🎊**
-
-You've successfully mastered the fundamentals of RTL design and synthesis, gaining hands-on experience with industry-standard open-source tools. From understanding basic simulation concepts to advanced synthesis optimization techniques, you're now ready to tackle more complex physical design challenges in Week 2!
-
-**🚀 Ready for the next adventure? Let's dive into Floor Planning! 🚀**
-
----
-
-### 📊 **Final Stats**
-- **⏱️ Time Invested**: 40+ hours of intensive learning
-- **🛠️ Tools Mastered**: 4 essential EDA tools
-- **📝 Code Written**: 500+ lines of Verilog
-- **🧪 Labs Completed**: 15+ hands-on exercises
-- **🎯 Concepts Learned**: 30+ key principles
 
 ---
 
