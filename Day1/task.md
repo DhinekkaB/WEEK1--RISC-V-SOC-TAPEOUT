@@ -1108,8 +1108,42 @@ This introduction to Yosys and logic synthesis provides the foundation for under
 
 ### 4. Labs using Yosys and Sky130 PDKs
 
-*[Content to be added as per your next requirements]*
+This project demonstrates logic synthesis using **Yosys** with the SkyWater130 standard cell library.
 
+## Prerequisites
+- [Yosys](https://yosyshq.net/yosys/) installed
+- SkyWater130 PDK library (`sky130_fd_sc_hd__tt_025C_1v80.lib`)
+
+## Commands
+
+Run the following commands step by step inside Yosys:
+
+```tcl
+# Load the Liberty (technology library)
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+# Read the Verilog design
+read_verilog good_mux.v
+
+# Perform synthesis (specify the top module)
+synth -top good_mux
+
+# Map the design to standard cells using ABC
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+# View schematic
+show
+
+# Write synthesized netlist with attributes
+write_verilog good_mux_netlist.v
+
+# Write synthesized netlist without attributes
+write_verilog -noattr good_mux_netlist.v
+
+```
+![YOSYS Flow](./Images/DESIGN5.jpg)
+![YOSYS Flow](./Images/DESIGN6.jpg)
+![YOSYS Flow](./Images/DESIGN7.jpg)
 ---
 
 ## 📁 File Structure
